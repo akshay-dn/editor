@@ -3,7 +3,6 @@
 #
 cmake_minimum_required(VERSION 3.16)
 
-set(CMAKE_PREFIX_PATH "/home/tej/Qt/6.9.1/gcc_64/lib/cmake")
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 set(CMAKE_AUTOMOC ON)
 set (SOURCES
